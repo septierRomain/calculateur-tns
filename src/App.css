@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'eina03';
+  src: url('./Assets/font/eina03-semibold-webfont.woff2') format('woff2'),
+      url('./Assets/font/eina03-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+h1 {
+  font-family: 'eina03';
+  font-size: 22px;
+  line-height: 120%;
+  margin-top: 0;
+}
+a {
+  text-decoration: none;
+  color: #001A25;
+  font-weight: 700;
+}
+body {
+  color: #001A25;
+  margin: 0;
+  padding: 0;
+  background-image: url('./Assets/Pattern.svg');
+  background-repeat: no-repeat;
+  min-height: 95vh;
+  background-position: bottom -120px right -70px ;
+  height: none;
+}
+#welcome, .wrap {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+  margin: auto;
+}
+#Header>p{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+}
+#welcome_banner>p {
+  font-size: 16px;
+  line-height: 120%;
+}
+#welcome_banner {
+  text-align: left;
+}
+#links {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+#links>a {
+  padding-bottom: 1em;
+}
+
+/* MEDIA QUERIES */
+
+
+/* SMARTPHONE */
+@media only screen and (max-width: 1025px) {
+  .wrap {
+    /* width: 300px; */
+    padding: 1.5em;
+  }
+  #Header{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 48px;
+  }
+  #Header>img{
+    width: 101px;
+    height: 26px;
+}  
+  #welcome_banner {
+    border: 1px solid #d4dadf;
+    padding: 0.5em;
+  }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1026px) {
+  .wrap {
+    width: 800px;
+    padding-bottom: 1.5em;
+  }
+  #Header{
+    display: flex;
+    align-items: center;
+    padding-bottom: 2em;
+    margin-top: 2em;
+  }
+  #Header>img {
+    padding-right: 16px;
+}
+#welcome_banner {
+  border: 1px solid #d4dadf;
+  padding: 2em;
+}
+}
