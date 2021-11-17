@@ -8,7 +8,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 h1 {
-  font-family: 'eina03';
   font-size: 22px;
   line-height: 120%;
   margin-top: 0;
@@ -17,6 +16,12 @@ a {
   text-decoration: none;
   color: #001A25;
   font-weight: 700;
+}
+p, input {
+  font-family: 'Open Sans';
+}
+h1, h2, h3, h4, h5 {
+  font-family: "eina03";
 }
 body {
   color: #001A25;
