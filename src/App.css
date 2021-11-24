@@ -17,11 +17,15 @@ a {
   color: #001A25;
   font-weight: 700;
 }
-p, input {
+p, input, ul {
   font-family: 'Open Sans'!important;
 }
 h1, h2, h3, h4, h5 {
   font-family: "eina03";
+}
+ul {
+  padding: 0;
+  display: flex;
 }
 body {
   color: #001A25;
