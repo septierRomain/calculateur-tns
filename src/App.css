@@ -17,6 +17,13 @@ a {
   color: #001A25;
   font-weight: 700;
 }
+a:hover {
+  text-decoration: underline;
+  color: #11ABEC!important;
+}
+a:visited {
+  color: #001A25
+}
 p, input, ul {
   font-family: 'Open Sans'!important;
 }

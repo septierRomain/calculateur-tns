@@ -17,24 +17,22 @@ function Home() {
           Qui sont les travailleurs non salariés ?
         </p>
             <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)', paddingLeft: '0.5em'}} />
-              Dirigeant de SAS
+              Gérant de SARL/EURL
             </ul>
             <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)', paddingLeft: '0.5em'}} />
-              Dirigeant de SASU
+              Chef d'entreprise individuelle
             </ul>
             <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)', paddingLeft: '0.5em'}} />
-              Gérant minoritaire ou égalitaire de SARL
-            </ul>
-            <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)', paddingLeft: '0.5em'}} />
-              Gérant non associé d'EURL
+              Associé de SNC
             </ul>
             <ul>
               ...
             </ul>
-        <p>
-        Peut être ne vous retrouvez vous pas dans cette liste ? Vous trouverez le simulateur dédié aux travailleurs non salariés ici.
-        Un doute sur votre statut social ? Consultez les experts de Dougs !</p>
-        <p>C’est parti !</p>
+            <p>
+            Peut être ne vous retrouvez vous pas dans cette liste ? Vous trouverez le simulateur dédié aux assimilés salariés&nbsp;
+            <a href='https://simulateur-assimile-salarie.netlify.app/' >ici</a></p>
+            <p>Un doute sur votre statut social ? Consultez les experts de Dougs !</p>
+            <p>C’est parti !</p>
       </div>
 
     </div>
